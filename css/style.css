@@ -7,8 +7,12 @@
 .navbar {
     padding: 1rem 8rem;
 }
+.navbar-custom {
+    background-color:white;
+}
+
 #navbarNav > ul > li:nth-child(n) >a {
-    color:cadetblue;
+    color: rgb(109, 109, 109);
     padding: 0 1rem;
 }
 #navbarNav > ul > li:nth-child(n) >a:hover{
@@ -31,7 +35,6 @@
     left: 10%;
     transform: translate (-50%, -50%);
 }
-
 
 .text-block {
     position: absolute;
@@ -86,4 +89,13 @@ background-color: #E7EEFF;
     font-size: 16px;
     text-align: center;
     color: #2a4592;
+}
+.fluid-image {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #hero {
+        height: 25vh;
+    }
 }
