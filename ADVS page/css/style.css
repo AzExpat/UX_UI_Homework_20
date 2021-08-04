@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar {
+    padding: 1rem 8rem;
+}
+#navbarNav > ul > li:nth-child(n) >a {
+    color:cadetblue;
+    padding: 0 1rem;
+}
+#navbarNav > ul > li:nth-child(n) >a:hover{
+    color: plum;
+}
+.jumbotron {
+    background-color: none;
+} 
+#hero {
+    background-image: url("../images/advs header3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero-section{
+    text-align: left;
+    position: absolute;
+    top:15%;
+    left: 10%;
+    transform: translate (-50%, -50%);
+}
+
+
+.text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.overview {
+    background-color: #E7EEFF; 
+}
+.proto {
+    background-color: #E7EEFF;
+}
+.proto .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.usability .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.usability .text h6{
+    color: #2a4592;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2.2px;
+}
+.right {
+    text-align: right;
+}
+.IA img {
+    border: 1px solid #2a4592;
+}
+.IA .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.nav_before {
+background-color: #E7EEFF;
+}
+.caption {
+    font-size: 16px;
+    text-align: center;
+    color: #2a4592;
+}
