@@ -93,6 +93,35 @@ background-color: #E7EEFF;
 .fluid-image {
     width: 100%;
 }
+#probs {
+    background-color: #2a4592;
+    justify-content: center;
+
+}
+.card {
+    width: 33%;
+    justify-content: center;
+    margin-left: 35%;
+}
+h6 .text { 
+    color: #2a4592;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2.2px;
+}
+.mobile {
+    width: 400px;
+}
+.desktop {
+    width: 500px;
+    height: auto;
+}
+.center {
+    text-align: center !important;
+    font-style: italic;
+    color: purple;
+
+}
 
 @media screen and (max-width: 600px) {
     #hero {

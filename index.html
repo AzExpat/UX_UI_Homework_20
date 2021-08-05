@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
       </head> 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top navbar-custom">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg sticky-top justify-content-center navbar-custom">
+    <div vclass="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -19,10 +19,10 @@
             <a class="nav-link active" aria-current="page" href="#">Top</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Research</a>
+            <a class="nav-link" href="#research">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Define</a>
+            <a class="nav-link" href="#probs">Define</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Ideate</a>
@@ -70,7 +70,7 @@
       </div>
   </section>
 
-  <section class="usability py-3">
+  <section class="usability py-3" id="research">
     <div class="container">    
         <div class="row">
           <div class="text col-md-6 col-sm-6">
@@ -103,7 +103,18 @@
   </div>
 </section>
 
-<section class="IA py-5">
+<section id="probs">
+  <div class="container probs mt-3 py-3">
+    <div class="card my-3 ">
+      <div class="card-body pt-3">
+    <h5>Problem Statement:</h5>
+    <p>How might we redesign the ADVS website to make it easier and faster for Arizona veterans to find information and services available to them?</p>
+      </div>  
+    </div>
+  </div>
+</section>
+
+<section class="IA py-3">
   <div class="container pt-3 pb-2">
     <h5 class="text-center">With almost 70 pages, and countless external links the website seemed to be growing in many different directions at once.</h5>
     <div class="row pt-4 mx-auto">
@@ -117,7 +128,6 @@
         <img class="img-fluid" src="images/ADVS Site Map.png" alt="information architecture" width="600" height="auto>" >
       </div>
     </div>
-
   </div>
 </section>
 
@@ -131,10 +141,35 @@
       <div class="col col-md-6 col-sm-12">
        <img class="image-fluid" src="images/advs_afternav.png" style="width: 500px;">
        <div class="caption center-block">"Search" - After</div>
+       <div>
+         <p>A main priority based on user testing and my own observation was to make searching the site easier by moving the search function to a far more user friendly location.</p>
+       </div>
     </div>
     </div>
   </div>
 </section>
+
+<section class="usability py-3" id="ideation">
+  <div class="container">    
+      <div class="row">
+        <div class="text col-md-6 col-sm-6">
+        <h6>IDEATION</h6>
+        <h5>Wireframing</h5>
+        <p>After sketching out a few rough ideas, I created basic wireframes in Figma. These wireframes were used to prototype my designs giving me
+          a much clearer picture of how the pages and functions would interact.</p>
+          <p>Along with moving the Search function to a more prominent postion, I created quick links to the sites most visited pages, aleviating the need to follow menu links or even type in a search topic.</p>
+          <p>Because there are so many areas of assistance and information available, if the user is unable to quickly locate his or her area of inerest a second search bar eliminates the need to scroll up to the top menu bar if topic is not immediately found.</p>
+          <img class="mobile" src="images/ITERATION  MOBILE (2).png">
+          <p class="center">Mobile Wireframes Iterations</p>
+        </div>
+        <div class="col-md-6 sm-12">
+          <img class="desktop" src="images/desk wireframe.png">
+
+        </div>
+    </div>
+  </div>
+</section>
+
 
 
 
