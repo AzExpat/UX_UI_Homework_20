@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <title>ADVScs</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/d3cee22c6a.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-      </head> 
+</head> 
+
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top justify-content-center navbar-custom">
+<nav class="navbar navbar-expand-lg sticky-top justify-content-center navbar-custom">
     <div vclass="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,27 +26,26 @@
             <a class="nav-link" href="#probs">Define</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ideate</a>
+            <a class="nav-link" href="#ideation">Ideate</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Test</a>
-          </li>
-        </ul>
+            <a class="nav-link" href="#testing">Test</a>
+          </li>        </ul>
         <a class="navbar-brand" href="#"><i class="fa fa-times"></i></a>
       </div>
     </div>
-  </nav>
+</nav>
 
-  <section id="hero" name="top">
+<section id="hero" name="top">
     <div class="jumbotron jumbotron-fluid bg-transparent">
       <div class="hero-section">
       <h1 class="text large-font"><b>Arizona Department of Veterans' Services</b></h1>
       <h5 class="text">Outdated agency website gets a much needed UX/UI makeover</h5>
       </div> 
     </div> 
-  </section>
+</section>
 
-  <section class="overview py-3">
+<section class="overview py-3">
       <div class="container">  
         <div class="row">   
           <div class="col text-center"> 
@@ -68,12 +68,12 @@
           </div>
         </div>
       </div>
-  </section>
+</section>
 
-  <section class="usability py-3" id="research">
+<section class="usability py-3" id="research">
     <div class="container">    
         <div class="row">
-          <div class="text col-md-6 col-sm-6">
+          <div class="text col-md-6 col-sm-12">
           <h6>RESEARCH</h6>
           <h5>Usability Testing</h5>
           <p>During the research phase I conducted 5 user interviews to gain a better understanding of how easy and intuitive the site was navigation was. Users were also given the specific task of finding the “Tuition Waiver Form” page and eligiblity requirements.</p>
@@ -82,12 +82,12 @@
           <p class="text-right"><i>"I guess it's ok, IF you already know where to look".</i><br>
           - Amie</p>
         </div>
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-sm-12">
             <img class="img-fluid" src="images/ADVS RWR (3).jpg">
           </div>
         </div>
     </div>
-  </section>
+</section>
 
 <section class="proto container py-3">
   <div="container">
@@ -103,7 +103,7 @@
   </div>
 </section>
 
-<section id="probs">
+<section id="probs py-3">
   <div class="container probs mt-3 py-3">
     <div class="card my-3 ">
       <div class="card-body pt-3">
@@ -135,42 +135,111 @@
   <div class="container py-5">
     <div class="row">
       <div class="col col-md-6 col-sm-12">
-        <img class="image-fluid" src="images/advs_beforenav.png" style="width: 500px;">
-        <div class="caption center-block">"Search" - Before</div>
+        <figure class="text-center">
+        <img class="img-fluid" src="images/advs_beforenav.png" width: 300px;>
+        <figcaption class="figure-caption">"Search" - Before</figcaption>
+        </figure>
       </div>
       <div class="col col-md-6 col-sm-12">
-       <img class="image-fluid" src="images/advs_afternav.png" style="width: 500px;">
-       <div class="caption center-block">"Search" - After</div>
+       <figure class="text-center">
+       <img class="img-fluid" src="images/advs_afternav.png" width: 300px;>
+       <figcaption class="figure-caption">"Search" - After</figcaption>
        <div>
+      </figure>
          <p>A main priority based on user testing and my own observation was to make searching the site easier by moving the search function to a far more user friendly location.</p>
        </div>
-    </div>
     </div>
   </div>
 </section>
 
 <section class="usability py-3" id="ideation">
-  <div class="container">    
-      <div class="row">
-        <div class="text col-md-6 col-sm-6">
-        <h6>IDEATION</h6>
-        <h5>Wireframing</h5>
-        <p>After sketching out a few rough ideas, I created basic wireframes in Figma. These wireframes were used to prototype my designs giving me
-          a much clearer picture of how the pages and functions would interact.</p>
-          <p>Along with moving the Search function to a more prominent postion, I created quick links to the sites most visited pages, aleviating the need to follow menu links or even type in a search topic.</p>
-          <p>Because there are so many areas of assistance and information available, if the user is unable to quickly locate his or her area of inerest a second search bar eliminates the need to scroll up to the top menu bar if topic is not immediately found.</p>
-          <img class="mobile" src="images/ITERATION  MOBILE (2).png">
-          <p class="center">Mobile Wireframes Iterations</p>
-        </div>
-        <div class="col-md-6 sm-12">
-          <img class="desktop" src="images/desk wireframe.png">
+  <div class="container">
+  <div class="row">
+    <div class="text col-md-6 col-sm-12 py-3">
+    <h6>IDEATION</h6>
+    <h5>Wireframing</h5>
+      <p>After sketching out a few rough ideas, I created basic wireframes in Figma. These wireframes were used to prototype my designs giving me
+      a much clearer picture of how the pages and functions would interact.</p>
+      <p>Along with moving the Search function to a more prominent postion, I created quick links to the sites most visited pages, aleviating the need to follow menu links or even type in a search topic.</p>
+      <p>Because there are so many areas of assistance and information available, if the user is unable to quickly locate his or her area of inerest a second search bar eliminates the need to scroll up to the top menu bar if topic is not immediately found.</p>     
+    <figure class="text-center">
+      <img class="img-fluid" src="images/ITERATION  MOBILE (2).png" alt="wireframes">
+      <figcaption class="figure-caption">Mobile Wireframes with Iterations</figcaption>
+    </figure>
+    </div>
+    <div class="col-md-6 sm-12 pt-2">
+      <figure class="text-center">
+        <img class="desktop img-fluid" src="images/desk wireframe.png">
+        <figcaption class="figure-caption">Desktop Wireframe</figcaption>
+      </figure>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
 
-        </div>
+<section class="style py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      <h5>UI Style Guide</h5>
+      <img class="img-fluid" src="images/style guide.png">
+    </div>
+   </div> 
+  </div>
+</section>
+
+<section class="problems py-3">
+  <div class="container">
+    <h5>Bumps in the Road</h5>
+    <div class="row align-items-center container my-3 mx-auto">
+      <div class="image col-sm-12 col-md-6">
+
+          <img class="img-fluid pb-2" src="images/icon examples.png"  alt="accessibility testing results">
+          <p>Sourced online, I only found poor quality, mismatched, freeby icons (left). The solution was to create my own (right).</p>
+      </div>
+      <div class="image col-sm-12 col-md-6">
+        <img class="img-fluid" src="images/accessibility.png" alt="terrible free icons">
+        <p>Gold was the original color choice for the "Most Accessed" buttons. It didn't pass accessibility testing however, and needed to be replaced. A darker gold looked muddy and red buttons, later tested, were deemed "Too jarring", by some testers.</p>
+      </div>
     </div>
   </div>
 </section>
 
-
+<section class="user testing py-5">
+  <div class="container">    
+    <div class="row">
+      <div class="text col-md-10">
+          <h6>TESTING</h6>
+          <h5>A/B Testing and User Feedback</h5>
+          <p>After clickable prototypes were built in Figma, I conducted and tested my high fidelity design with 5 volunteers. The goal of the testing was to assess whether users found the navigation easier and more intuitive and whether they could find the information they wanted with less frustration.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-6 sm-12">
+        <figure class="text-center">
+          <img class="figure-img img-fluid" src="images/testing1.png">
+          <figcaption class="figure-caption">Desktop Before (left) and After (right)</figcaption>
+        </figure>
+        <p>The buttons on the left were, "Just too big" according to testers. By resizing them they now fit above the fold.</p>
+        <p>Additional User Testing Findings:</p>
+        <ul>
+          <li>Mobile: Clean up the typography and polish the information hierarchy on the Tuition Waiver page.</li>
+          <li>Mobile: The black hamburger menu was hard to see against the blue background.</li>
+          <li>"There's a lot of blue".</li>
+        </ul>
+      </div>
+      <div class="col col-md-6 sm-12">
+        <figure class="text-center">
+          <img class="figure-img img-fluid" src="images/testingmobile.png">
+          <figcaption class="figure-caption">Mobile Before (left) and After (right)</figcaption>
+        </figure>
+        <p>While adding visual interest, the red accordion dropdown menu was deemed, "Too jarring" by users and was scrapped.</p>
+      </div>
+    </div>
+  </div>  
+</section>
 
 
 
@@ -178,5 +247,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+
 <body>
 </html>

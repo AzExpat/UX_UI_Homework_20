@@ -116,11 +116,18 @@ h6 .text {
     width: 500px;
     height: auto;
 }
-.center {
-    text-align: center !important;
-    font-style: italic;
-    color: purple;
+.style {
+    background-color: #E7EEFF;
+}
 
+.testing {
+    background-color: #E7EEFF;
+}
+.testing .text h6{
+    color: #2a4592;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2.2px;
 }
 
 @media screen and (max-width: 600px) {
