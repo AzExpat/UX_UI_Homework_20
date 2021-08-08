@@ -10,13 +10,19 @@
 .navbar-custom {
     background-color:white;
 }
-
 #navbarNav > ul > li:nth-child(n) >a {
     color: rgb(109, 109, 109);
     padding: 0 1rem;
 }
 #navbarNav > ul > li:nth-child(n) >a:hover{
-    color: plum;
+    color: goldenrod;
+}
+.fa {
+    color: slategray;
+}
+.gohome {
+    text-align: right;
+
 }
 .jumbotron {
     background-color: none;
@@ -35,7 +41,6 @@
     left: 10%;
     transform: translate (-50%, -50%);
 }
-
 .text-block {
     position: absolute;
     top: 20px;
@@ -45,6 +50,9 @@
 }
 .overview {
     background-color: #E7EEFF; 
+}
+.pt-3, .py-3 {
+    padding-top: 2rem!important;
 }
 .proto {
     background-color: #E7EEFF;
@@ -66,8 +74,8 @@
 .usability .text h6{
     color: #2a4592;
     font-weight: 800;
-    font-size: 1rem;
-    letter-spacing: 2.2px;
+    font-size: 1.3 rem;
+    letter-spacing: 2.4px;
 }
 .right {
     text-align: right;
@@ -93,10 +101,13 @@ background-color: #E7EEFF;
 .fluid-image {
     width: 100%;
 }
-#probs {
+#pstatement {
     background-color: #2a4592;
     justify-content: center;
-
+}
+.pstatement {
+    background-color: #2a4592;
+    justify-content: center;
 }
 .card {
     width: 33%;
@@ -128,6 +139,24 @@ h6 .text {
     font-weight: 800;
     font-size: 1rem;
     letter-spacing: 2.2px;
+}
+.probs {
+    background-color: #2a4592;
+}
+.finalresults .text h6 {    
+    color: #2a4592;
+    font-weight: 800;
+    font-size: 1.3 rem;
+    letter-spacing: 2.4px;
+}
+.conclusion .text h6 {    
+    color: #2a4592;
+    font-weight: 800;
+    font-size: 1.3 rem;
+    letter-spacing: 2.4px;
+}
+.conclusion {
+    background-color: #E7EEFF;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>ADVScs</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="https://use.fontawesome.com/d3cee22c6a.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <title>ADVScs</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/d3cee22c6a.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 </head> 
 
 <body>
@@ -23,15 +25,18 @@
             <a class="nav-link" href="#research">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#probs">Define</a>
+            <a class="nav-link" href="#pstatement">Define</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#ideation">Ideate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#testing">Test</a>
-          </li>        </ul>
-        <a class="navbar-brand" href="#"><i class="fa fa-times"></i></a>
+          </li>        
+        </ul>
+  
+        <a class="gohome" href="#"><i class="fa fa-times"></i></a>
+
       </div>
     </div>
 </nav>
@@ -70,7 +75,7 @@
       </div>
 </section>
 
-<section class="usability py-3" id="research">
+<section class="usability pt-5 pb-3" id="research">
     <div class="container">    
         <div class="row">
           <div class="text col-md-6 col-sm-12">
@@ -89,7 +94,7 @@
     </div>
 </section>
 
-<section class="proto container py-3">
+<section class="proto py-3">
   <div="container">
     <div class="row align-items-center container my-3 mx-auto">
       <div class="image col-sm-6 col-md-6">
@@ -103,7 +108,7 @@
   </div>
 </section>
 
-<section id="probs py-3">
+<section class="problem py-3" id="pstatement">
   <div class="container probs mt-3 py-3">
     <div class="card my-3 ">
       <div class="card-body pt-3">
@@ -152,7 +157,7 @@
   </div>
 </section>
 
-<section class="usability py-3" id="ideation">
+<section class="usability pt-5 pb-3" id="ideation">
   <div class="container">
   <div class="row">
     <div class="text col-md-6 col-sm-12 py-3">
@@ -195,7 +200,6 @@
     <h5>Bumps in the Road</h5>
     <div class="row align-items-center container my-3 mx-auto">
       <div class="image col-sm-12 col-md-6">
-
           <img class="img-fluid pb-2" src="images/icon examples.png"  alt="accessibility testing results">
           <p>Sourced online, I only found poor quality, mismatched, freeby icons (left). The solution was to create my own (right).</p>
       </div>
@@ -207,8 +211,9 @@
   </div>
 </section>
 
-<section class="user testing py-5">
-  <div class="container">    
+
+<section class="user testing py-3" id="testing">
+  <div class="container pt-5">    
     <div class="row">
       <div class="text col-md-10">
           <h6>TESTING</h6>
@@ -240,6 +245,65 @@
     </div>
   </div>  
 </section>
+</div>
+
+<section class="finalresults py-5">
+<div class="container">   
+  <div class="row">
+    <div class="text col-md-10">
+          <h6>THE SOLUTION</h6>
+          <h5>Iterated Clickable Prototypes</h5>
+          <p>Tempted to make my subheading read "Final Clickable Prototypes", I'm aware that a design is never really "done", and there will always be something I can revisit. I guess I can say this is my Final Clickable Prototype...for now!  
+    </div>
+  </div>
+  <div class="row pt-5">
+    <div class="col col-md-6 col-sm-12">
+      <img src="images/mobile prototype hi fi 4.gif"  alt="animated mobile demo">
+    </div>
+    <div class="col col-md-6 col-sm-12">
+      <img src="images/desktop prototype hi fi 2.gif" alt="animated desktop demo">
+    </div>
+</section>
+
+<!--Yeah, I'm not sure I like this right after the gifs
+<section class="before_after py-3">
+  <div class="container">
+    <h5>The Big Reveal</h5>
+    <div class="row pt-3">
+    <div class="col col-md-6 col-sm-12">
+      <figure class="text-center">
+        <figcaption class="figure-caption">Home Page - Before</figcaption>
+          <img class="img-fluid" src="images/advs orig.png">
+      </figure>
+      </div>
+      <div class="col col-md-6 col-sm-12">
+      <figure class="text-center">
+        <figcaption class="figure-caption">Home Page - After</figcaption>
+        <img class="img-fluid" src="images/Desktop prototype HOME.png">
+    </figure>
+  </div>
+    </div>
+    <div class="col col-md-6 col-sm-12">
+      
+    </div>
+  </div>
+  </div>
+</section>
+-->
+
+<section class="conclusion py-5">
+  <div class="container">
+    <div class="row">
+      <div class="text col-md-10">
+            <h6>CONCLUSION</h6>
+            <p>Every project presents different challenges and learning opportunities, and this one was no different. One of the more startling things I learned was just how extensive the original site was. It appeared to have been added to and tweaked over the years, rather than reorganized and redesigned. At the onset I thought about how satisfying it would be to really redesign it, by the end of the project however, I knew just how monumental the task would be. I found that Information Architecture is far more interesting that I ever would have guessed, and that even the best thought out color scheme can be problematic.</p>
+          
+    </div>
+  </div>
+</section>
+
+
+</body>
 
 
 
